@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AchadosPerdidos</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid text-light bg-dark ms-2">
+          <h1>Achados & Perdidos</h1>
+          <div class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Mais
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sequestro</a></li>
+              <li><a class="dropdown-item" href="#">Roubos</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Achados</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>Procurados por Assasinato</h1>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/A1.jpg" class="d-block mx-auto" alt="..." />
+            <div class="carousel-caption text-light">
+              <h5>CAIO RODRIGUES</h5>
+              <p>HOMICÍDIO</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/A2.jpg" class="d-block mx-auto" alt="..." />
+            <div class="carousel-caption text-light">
+              <h5>SANDOVAL AMADEU LOPES</h5>
+              <p>HOMICÍDIO</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/A3.jpg" class="d-block mx-auto" alt="..." />
+            <div class="carousel-caption text-light">
+              <h5>WELLINGTON RODRIGUES FERREIRA DE OLIVEIRA</h5>
+              <p>HOMICÍDIO, ROUBOS E MOTIM DE PRESOS</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="imagens/CA3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">ROGERIO SOARES DE OLIVEIRA</h5>
+            <p class="card-text">
+              (NEGÃO) <br />
+              Idade: 53 Anos <br />
+              LATROCÍNIO <br />
+              "Possui mandado de prisão em aberto, fuga em aberto e condenação
+              de 20 anos de prisão, com pena remanescente superior a 15 anos.
+              ROGERIO é um dos autores do crime que vitimou um sargento da PMMG,
+              na cidade de Ilicínea/MG, no ano de 2017."
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagens/CA1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">MARCELO JAIME GONÇALVES</h5>
+            <p class="card-text">
+              (MARCELINHO PISCA-PISCA, PISCA, MARCELINHO, MARCELINHO CABANA)
+              <br />
+              Idade: 40 Anos <br />
+              HOMICÍDIO E TRÁFICO ILÍCITO DE DROGAS <br />
+              "Possui mandado de prisão em aberto e condenação superior a 53
+              anos de prisão, com pena remanescente de mais de 32 anos. É líder
+              de Organização Criminosa atuante na Região Metropolitana de Belo
+              Horizonte/MG (RMBH)."
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagens/CA2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">ANGELO GONCALVES DE MIRANDA FILHO</h5>
+            <p class="card-text">
+              (PEZÃO, ANJINHO, NEGÃO) <br />
+              Idade: 41 Anos <br />
+              HOMICÍDIO, EXTORSÃO, ASSOCIAÇÃO AO TRÁFICO E PORTE ILEGAL DE ARMA
+              DE USO RESTRITO <br />
+              "Possui mandado de prisão em aberto e condenação superior a 26
+              anos de prisão. Envolvido com a mercancia ilícita de drogas e
+              criminalidade violenta, no município de Teófilo Otoni e na região
+              metropolitana de Belo Horizonte/MG (RMBH). Na capital, atuou no
+              aglomerado Moro das Pedras e no bairro Califórnia. Também atuou
+              nos municípios de Contagem e Ibirité. Possui ramificações no
+              Estado de São Paulo."
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center text-white" style="background-color: #21081a;">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="file:///home/emili.spricigo/Documentos/bootstrap/index.html">AchadosPerdidos/Assasinato</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>
